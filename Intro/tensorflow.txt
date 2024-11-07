@@ -1,0 +1,15 @@
+Tensorflow is an open source platform for creating and using machine learning models.
+It implements many of the common algorithms and patterns needed for ML.
+
+The process of creating a ML model is called training.
+Using the model to recognize future inputs is called inference.
+
+For training models, you need to support a set of APIs for designing the model themselves.
+you can do this in 3 ways:
+1. code and figure out all the logic yourself
+2. use built in estimators (already implemented neural networks that you can customize)
+3. use keras which is a high level API that allows to encapsulate common ML paradigms in code
+
+Tensor Data services provides preprocessed datasets that you can use with a single line of code.
+Tensorflow has APIs for serving, i.e. providing the model inference ove HTTP connection for cloud/web users.
+for mobile, embedded systems, there's tensorflow lite.
